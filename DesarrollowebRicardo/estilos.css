@@ -1,5 +1,46 @@
 body{
-    font-family: 'Source Sans Pro', sans-serif;;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 0;
+}
+
+.header{
+    background-color: #071F45;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    height: 90px;
+}
+.menu{
+    height: inherit;
+}
+.header a{
+    color: white;
+    text-decoration: none;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+    font-size: 19px;
+}
+.header ol{
+    display: flex;
+    height: inherit;
+}
+
+.header ol li{
+    height: inherit;
+}
+
+
+figure{
+    margin: 0;
+}
+
+ol,
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
 }
 
 h1,
@@ -18,38 +59,189 @@ h1{
     letter-spacing: -.2px;
   /*   text-transform: capitalize; */
     color: white;
+    margin: 0;
+    padding-right: 5px;
 }
 
 h1 strong{
     color: #026fff;
 }
+h2{
+    color: #026fff;
+    text-transform: uppercase;
+    font-family:'Source Sans Pro', sans-serif ;
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 40px;
+    margin-left: 15px;
+}
 
 .hero{
     height: 300px;
-    background-image: url("https://www.becasinternacionales.net/webapp/img/upload/4585ec_habilidades-necesarias-para-convertirse-en-desarrollador-web.jpg");
-    background-size: 500px 300px;
     background-color: #071F45;
-    background-repeat: no-repeat;
-    background-position-x: right;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.portfolio{
+    background-color: #fafafa;
+    padding: 20px;
 }
 
 .project{
     border:1px solid gray;
     border-radius: 10px;
+    margin:10px ;
+    padding: 20px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
+
+.project-course,
+.project-date,
+.project-url{
+    margin: 10px 0;
+}
+.project-description{
+    font-size: 20px;
+}
+.project strong{
+    font-family: 'Fjalla One', sans-serif;
+}
+.project-title{
+       font-size: 30px;
+       margin-top: 0;
+       margin-bottom: 10px;
+}
+
 .project-details{
     width: 500px;
 }
 .project-image-container{
     width: 500px;
 }
-
-.header{
-    background-color: #071F45;
+.footer{
+    color: white;
+    background-color: #1b2127;
+    display: flex;
+     align-items: center;
+     justify-content: space-between;
+}
+.footer img{
+    vertical-align: middle;
+}
+.footer a{
     color: white;
 }
 
-.header a{
-    color: white;
+.event-list{
+    display: flex;
+}
+
+.event-list-title{
+    margin-left:30px ;
+}
+
+.event{
+    margin: 10px;
+    width: 306px;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #f4fbff;
+}
+.event img{
+  width: 306px;
+  height: 165px;  
+  object-fit: cover;
+}
+.event-detail{
+    margin:20px 40px;
+    margin-top: -40px;
+    background-color: white;
+    position: relative;
+    padding: 20px;
+    text-align: center;
+}
+.event-url{
+    border: 1px solid #056fff;
+    padding: 5px 20px;
     text-decoration: none;
+    color: #056fff;
+    border-radius: 5px;
+    font-weight: bold;
 }
+
+.contact{
+    background-color: #056fff;
+    color: white;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.social{
+   
+}
+
+.social-link{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    margin: 0 10px;
+    background-size: 50px 50px;
+
+}
+
+.social-link.facebook{
+  background-image: url("facebook.png");
+}
+
+.social-link.github{
+    background-image: url("github.png");
+  }
+  
+.form-email input{
+    border-color: gray;
+    border-style: solid;
+    border-radius: 5px;
+    padding:10px 20px 10px 25px;
+    background-image: url("email.png");
+    background-size: 15px 15px;
+    background-repeat: no-repeat;
+    background-position-y:center ;
+    background-position-x:5px ;
+}
+.form-email button{
+    display: block;
+    margin-top:10px ;
+    background:transparent ;
+    color: white;
+    padding: 10px 0;
+    border-radius: 5px;
+    width: 100px;
+}
+
+.form-email h3{
+    font-family:'Source Sans Pro', sans-serif ;
+}
+
+.label{
+    display: block;
+    font-size: 23px;
+    padding-top: 5px;
+}
+
+.container{
+    width: 1000px;
+    margin:0 auto;
+    display: inherit;
+    justify-content: inherit;
+    align-items: inherit;
+    height: inherit;
+}
+
