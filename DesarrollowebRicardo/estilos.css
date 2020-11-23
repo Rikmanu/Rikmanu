@@ -9,6 +9,7 @@ body{
     display: flex;
     justify-content: space-between;
     height: 90px;
+    flex-wrap: wrap;
 }
 .menu{
     height: inherit;
@@ -82,6 +83,7 @@ h2{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 
@@ -99,6 +101,7 @@ h2{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .project-course,
@@ -119,10 +122,13 @@ h2{
 }
 
 .project-details{
-    width: 500px;
+    width: 50%;
 }
 .project-image-container{
-    width: 500px;
+    width: 50%;
+}
+.project-image-container img{
+    max-width:100%;
 }
 .footer{
     color: white;
@@ -130,6 +136,7 @@ h2{
     display: flex;
      align-items: center;
      justify-content: space-between;
+     flex-wrap: wrap;
 }
 .footer img{
     vertical-align: middle;
@@ -147,11 +154,12 @@ h2{
 }
 
 .event{
-    margin: 10px;
-    width: 306px;
+    margin: 1%;
+    width: 48%;
     border-radius: 10px;
     overflow: hidden;
     background-color: #f4fbff;
+    display: inline-block;
 }
 .event img{
   width: 306px;
@@ -182,6 +190,7 @@ h2{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .social{
@@ -237,11 +246,12 @@ h2{
 }
 
 .container{
-    width: 1000px;
+    max-width: 1000px;
+    width: 100%;
+    flex: 1;
     margin:0 auto;
     display: inherit;
     justify-content: inherit;
     align-items: inherit;
     height: inherit;
 }
-
