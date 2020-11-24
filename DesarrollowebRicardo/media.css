@@ -1,87 +1,154 @@
 @media screen and (max-width:1024px){
-     .container{
-         padding: 0 1em;
-     }
+    .container{
+        padding: 0 1em;
+    }
+    .hero{
+        height: auto;
+
+    }
+
 }
 @media screen and (max-width:813px){
-    .event-list .container {
-          display: block;
-    }
-    .event-list .container article{
-        min-width: 90vw;
-    }
-    .event-list .container .event figure{
-        text-align: center;
-    }
+   h1{
+       font-size: 2em;
+       
+   }
+   .event-list .container {
+         display: block;
+   }
+   .event-list .container article{
+       min-width: 90vw;
+   }
+   .event-list .container .event figure{
+       text-align: center;
+   }
 }
 @media screen and (max-width:767px){
-     .header{
-         display: block;
-         height: auto;
-     }
-     .header ol{
-         display: block;
-     }
-     .header ol li{
-         height: 50px;
-     }
-     .header a{
-         justify-content: center;
-     }
-     .header .logo{
-          text-align: center;
-     }
-     .project{
-         display: block;
-     }
-    .project-image-container{
-        width: auto;
-        text-align: center;
+   .burger-button{
+       display: block;
+   }
+   .hero{
+      position: relative;
+      overflow: hidden;
+      padding: 2em;
+   }
+   .hero-image{
+       position: absolute;
+       z-index: 1;
+       top: 0;
+       left: 0;
+       right: 0;
+       bottom: 0;
+       width: 100%;
+   }
+   h1{
+       z-index: 2;
+       background: rgba(0,0, 0, .5);
+       text-shadow: 1px 2px 2px #000;
+   }
+    .header{
+        display: block;
+        height: auto;
     }
-    .project-details{
-        width: auto;
-     
+    .header ol{
+        display: block;
     }
-    .project-course, .project-date, .project-url{
-        margin: .3em 0;
+    .header ol li{
+        height: 50px;
     }
-    .project-title{
-        font-size: 1.5em;
-        margin-bottom: 0.3em;
+    .header a{
+        justify-content: center;
     }
-    .project-url{
-        font-size: 1.5em;
+    .borrador{
+       position: fixed;
+       display: flex;
+       background-color: rgba(0,0,0,.8);
+       z-index: 3;
+       top: 0;
+       left: -100vw;
+       width: 100vw;
+       bottom: 0;
+       align-items: center;
+       justify-content: center;  
+       transition: .3s;
     }
-    .project-course{
-        font-size: .7em;
+    .borrador.is-active{
+       left: 0;
     }
-    .project-date{
-        font-size: 1em;
+
+    .borrador a{
+       justify-content:center;
+       height: 40px;
+       font-size:2em;
+       margin-bottom:.5em;
+       border:2px solid white;
     }
-    .project-description{
-        font-size: .8em;
+
+
+    .header .logo{
+         text-align: center;
     }
+
+    .project{
+        display: block;
+    }
+   .project-image-container{
+       width: auto;
+       text-align: center;
+   }
+   .project-details{
+       width: auto;
+    
+   }
+   .project-course, .project-date, .project-url{
+       margin: .3em 0;
+   }
+   .project-title{
+       font-size: 1.5em;
+       margin-bottom: 0.3em;
+   }
+   .project-url{
+       font-size: 1.5em;
+   }
+   .project-course{
+       font-size: .7em;
+   }
+   .project-date{
+       font-size: 1em;
+   }
+   .project-description{
+       font-size: .8em;
+   }
 }
 
 @media screen and (max-width:480px){
-    .project-details{
-      font-size: 12px;
-    }
-    .contact{
-        height: auto;
-      display: block;
-      padding: 1em 0;
-      text-align: center;
-    }
-    button{
-         margin: 1em auto;
-    }
-    footer .container{
-        display: block;
-        text-align: center;
-        padding: 1px;
-    }
+   h1{
+       font-size: 1.5em;
+   }
+   .project-details{
+     font-size: 12px;
+   }
+   .contact{
+       height: auto;
+     display: block;
+     padding: 1em 0;
+     text-align: center;
+   }
+   button{
+        margin: 1em auto;
+   }
+   footer .container{
+       display: block;
+       text-align: center;
+       padding: 1px;
+   }
 }
 @media screen and (max-width:320px){
-
+   h1{
+       font-size: 1.2em;
+       
+   }
+   .heroe{
+       padding: 2em 1em;
+   }
 }
